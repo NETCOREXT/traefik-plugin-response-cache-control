@@ -1,0 +1,10 @@
+displayName: Response Cache Control
+type: middleware
+
+import: github.com/NETCOREXT/traefik-plugin-response-cache-control
+
+summary: A Traefik plugin for managing response cache control headers.
+
+testData:
+  value: "public, max-age=3600"
+  override: true
